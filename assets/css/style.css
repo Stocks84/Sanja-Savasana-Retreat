@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Tenor+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 300; 
+}
+
+h1 {
+    font-family: 'Bellefair', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
 }
