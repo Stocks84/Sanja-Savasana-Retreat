@@ -29,3 +29,35 @@ h1, h2 {
     float: left;
     font-size: 300%;
 }
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #7f7f7f;
+}
+
+.active {
+    border-bottom: 1px solid #7f7f7f;
+}
