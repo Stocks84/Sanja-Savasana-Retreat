@@ -16,6 +16,10 @@ body {
 
 /* Headings & logo */
 
+h1 {
+    margin-left: 30px;
+}
+
 h1, h2 {
     font-family: 'Bellefair', sans-serif;
     font-weight: 400;
@@ -81,16 +85,19 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 3px;
 
-    width: 275px;
-    height: 100px;
+    width: 300px;
+    height: 150px;
 
     padding-top: 20px;
     padding-left: 10px;
 
     background-color: rgba(127, 127, 127, .5);
 
-    bottom: 150px;
-    left: 110px;
+    bottom: 165px;
+    left: 40px;
 
     position: absolute;
 }
+
+/* about retreat */
+
