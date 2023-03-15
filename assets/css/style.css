@@ -16,10 +16,6 @@ body {
 
 /* Headings & logo */
 
-h1 {
-    margin-left: 30px;
-}
-
 h1, h2 {
     font-family: 'Bellefair', sans-serif;
     font-weight: 400;
@@ -32,6 +28,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
+    margin-left: 30px;
 }
 
 /* navigation links */
@@ -99,5 +96,33 @@ h1, h2 {
     position: absolute;
 }
 
-/* about retreat */
+/* retreat content */
+
+#content {
+    height: 600px;
+}
+
+#content h1 {
+    border-bottom: 1px solid #7f7f7f;
+    width: 25%;
+    margin-left: 30px;
+}
+
+#content p {
+    margin-left: 30px;
+    line-height: 40px;
+}
+
+#top {
+    padding-top: 15px;
+}
+
+#middle {
+    padding-top: 15px;
+}
+
+#bottom {
+    padding-top: 15px;
+}
+
 
