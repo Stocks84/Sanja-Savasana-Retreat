@@ -91,7 +91,6 @@ h1, h2 {
     position: absolute;
     top: 470px;
     left: 30px;
-
 }
 
 /* retreat content */
@@ -126,4 +125,21 @@ h1, h2 {
 
 /* footer and social media */
 
+footer {
+    height: 150px
+}
 
+.social-icons {
+    text-align: center;
+}
+
+.social-icons > li {
+    display: inline;
+}
+
+.social-icons i {
+    font-size: 150%;
+    margin: 2%;
+    padding: 2%;
+    color: #708090;
+}
