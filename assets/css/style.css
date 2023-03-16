@@ -143,3 +143,37 @@ footer {
     padding: 2%;
     color: #708090;
 }
+
+/* yoga.html */
+
+/* hero image */
+
+#yoga-hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../Images/yoga-hero-image.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: 'Tenor Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    width: 300px;
+    height: 150px;
+
+    padding-top: 20px;
+    padding-left: 10px;
+
+    background-color: rgba(127, 127, 127, .5);
+
+    position: absolute;
+    top: 470px;
+    left: 30px;
+}
