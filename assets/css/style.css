@@ -88,10 +88,10 @@ h1, h2 {
 
     background-color: rgba(127, 127, 127, .5);
 
-    bottom: 220px;
-    left: 40px;
-
     position: absolute;
+    top: 470px;
+    left: 30px;
+
 }
 
 /* retreat content */
@@ -123,5 +123,7 @@ h1, h2 {
 #bottom {
     padding-top: 15px;
 }
+
+/* footer and social media */
 
 
