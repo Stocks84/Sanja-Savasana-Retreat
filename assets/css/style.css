@@ -155,11 +155,11 @@ footer {
     background-size: cover;
 }
 
-#cover-text, #cover-text h2 {
+#yoga-cover-text, #yoga-cover-text h2 {
     color: #fff;
 }
 
-#cover-text {
+#yoga-cover-text {
     font-size: 130%;
     font-family: 'Tenor Sans', sans-serif;
     text-transform: uppercase;
@@ -175,5 +175,73 @@ footer {
 
     position: absolute;
     top: 470px;
-    left: 30px;
+    right: 30px;
+}
+
+/* yoga content */
+
+#yoga-content {
+    height: 600px;
+}
+
+#yoga-left {
+    padding-top: 15px;
+    border: 2px solid red;
+    padding-bottom: 13%;
+}
+
+#yoga-left h2 {
+    border-bottom: 1px solid #7f7f7f;
+    width: 25%;
+    margin-left: 30px;
+}
+
+#yoga-left p {
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#yoga-img-right {
+    height: 300px;
+    width: 33%;
+
+    float: right;
+    margin-right: 30px;
+    margin-left: 30px;
+
+    border: 1px solid #7f7f7f;
+}
+
+#yoga-right {
+    padding-top: 15px;
+    border: 2px solid red;
+    padding-bottom: 13%;
+}
+
+#yoga-right h2 {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #7f7f7f;
+    width: 25%;
+    margin-right: 30px;
+}
+
+#yoga-right p {
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#yoga-img-left {
+    height: 300px;
+    width: 33%;
+
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+
+    border: 1px solid #7f7f7f;
 }
