@@ -123,28 +123,7 @@ h1, h2 {
     padding-top: 15px;
 }
 
-/* footer and social media */
-
-footer {
-    height: 150px
-}
-
-.social-icons {
-    text-align: center;
-}
-
-.social-icons > li {
-    display: inline;
-}
-
-.social-icons i {
-    font-size: 150%;
-    margin: 2%;
-    padding: 2%;
-    color: #708090;
-}
-
-/* yoga.html */
+/* yoga page */
 
 /* hero image */
 
@@ -181,29 +160,28 @@ footer {
 /* yoga content */
 
 #yoga-content {
-    height: 600px;
+    height: 1650px;
 }
 
-#yoga-left {
+.yoga-left {
     padding-top: 15px;
-    border: 2px solid red;
     padding-bottom: 13%;
 }
 
-#yoga-left h2 {
+.yoga-left h2 {
     border-bottom: 1px solid #7f7f7f;
     width: 25%;
     margin-left: 30px;
 }
 
-#yoga-left p {
+.yoga-left p {
     margin-left: 30px;
     margin-right: 30px;
     line-height: 40px;
     text-align: center;
 }
 
-#yoga-img-right {
+.yoga-img-right {
     height: 300px;
     width: 33%;
 
@@ -214,34 +192,56 @@ footer {
     border: 1px solid #7f7f7f;
 }
 
-#yoga-right {
+.yoga-right {
     padding-top: 15px;
-    border: 2px solid red;
     padding-bottom: 13%;
 }
 
-#yoga-right h2 {
+.yoga-right h2 {
     display: flex;
     justify-content: flex-end;
     border-bottom: 1px solid #7f7f7f;
     width: 25%;
     margin-right: 30px;
+    float: right;
 }
 
-#yoga-right p {
+.yoga-right p {
     margin-left: 30px;
     margin-right: 30px;
     line-height: 40px;
     text-align: center;
+    padding-top: 30px;
 }
 
-#yoga-img-left {
+.yoga-img-left {
     height: 300px;
     width: 33%;
 
     float: left;
     margin-right: 30px;
     margin-left: 30px;
+    margin-top: 30px;
 
     border: 1px solid #7f7f7f;
+}
+
+/* footer and social media */
+footer {
+    height: 150px
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons > li {
+    display: inline;
+}
+
+.social-icons i {
+    font-size: 150%;
+    margin: 2%;
+    padding: 2%;
+    color: #708090;
 }
