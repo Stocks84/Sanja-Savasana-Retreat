@@ -50,8 +50,21 @@
             <fieldset>
                 <legend>Your Details</legend>
                 <div>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="full_name" placeholder="Your name" required>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" class="signup-text" name="full_name" placeholder="Full name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" class="signup-text" name="email" placeholder="Your email" required>
+                </div>
+                <div>
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" class="signup-text">
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
+                    <option value="Other">Other</option>
+                    <option value="Private">Private</option>
+                    </select>
                 </div>
             </fieldset>
 

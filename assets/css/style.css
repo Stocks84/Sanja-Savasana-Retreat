@@ -238,7 +238,7 @@ h1, h2 {
 
 /* sign up content */
 #signup-content {
-    height: 300px;
+    height: 150px;
 }
 
 #signup-content h2 {
@@ -260,8 +260,43 @@ h1, h2 {
 }
 
 fieldset {
-    border: 1px solid #
+    border: 1px solid #7f7f7f;
+    border-radius: 10px;
+
+    width: 500px;
+    padding: 30px;
+    margin: 30px;
 }
+
+legend {
+    font-size: x-large;
+    font-weight: 900;
+}
+
+label {
+    font-size: large;
+    font-weight: 500;
+
+}
+
+.signup-text {
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.2);
+    padding: 2px;
+    border-radius: 10px;
+    margin-left: 6px;
+    margin-bottom: 15px;
+
+}
+
+input {
+    color: #7f7f7f;
+}
+
+::placeholder {
+    padding-left: 10px;
+    color: lightgray;
+}
+
 
 /* footer and social media */
 footer {
