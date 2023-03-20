@@ -256,16 +256,21 @@ h1, h2 {
 /* sign up form */
 
 #signup-form {
-    height: 300px;
+    height: 600px;
 }
 
 fieldset {
     border: 1px solid #7f7f7f;
     border-radius: 10px;
 
-    width: 500px;
+    width: 800px;
     padding: 30px;
     margin: 30px;
+}
+
+fieldset p {
+    font-size: large;
+    font-weight: 500;
 }
 
 legend {
@@ -280,6 +285,7 @@ label {
 }
 
 .signup-text {
+    width: 200px;
     box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.2);
     padding: 2px;
     border-radius: 10px;
@@ -287,6 +293,7 @@ label {
     margin-bottom: 15px;
 
 }
+
 
 input {
     color: #7f7f7f;

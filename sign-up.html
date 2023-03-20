@@ -67,8 +67,34 @@
                     </select>
                 </div>
             </fieldset>
-
-        </form>
+            <fieldset>
+                <legend>Your Experience</legend>
+                <div>
+                    <label for="yoga">Your favourite type of yoga?</label>
+                    <input id="yoga" list="yoga-types" name="yoga" class="signup-text">
+                    <datalist id="yoga-types">
+                        <option value="Vinayasa">
+                        <option value="Hatha">
+                        <option value="Ashtanga">
+                        <option value="Bikram">
+                    </datalist>
+                </div>
+                <div>
+                    <p>What level are you?</p>
+                    <br>
+                    <input id="t-beginner" name="level" value="t-beginner" type="radio">
+                    <label for="t-beginner">Total Beginner</label>
+                    <input id="beginner" name="level" value="beginner" type="radio">
+                    <label for="beginner">Beginner</label>
+                    <input id="intermediate" name="level" value="intermediate" type="radio">
+                    <label id="intermediate">Intermediate</label>
+                    <input id="advance" name="level" value="advance" type="radio">
+                    <label for="advance">Advance</label>
+                    <input id="professional" name="level" value="professional" type="radio">
+                    <label for="professional">Professional</label>
+                </div>
+            </fieldset>
+         </form>
     </section>
 
     <footer>
