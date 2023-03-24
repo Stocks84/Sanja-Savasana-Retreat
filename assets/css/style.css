@@ -9,7 +9,7 @@
 body {
     font-family: 'Tenor Sans', sans-serif;
     font-weight: 300;
-    color: #7f7f7f;
+    color: #504a4b;
     background-color: aliceblue;
 }
 
@@ -96,10 +96,6 @@ h1, h2 {
 
 /* retreat content */
 
-#content {
-    height: 600px;
-}
-
 #content h2 {
     border-bottom: 1px solid #7f7f7f;
     width: 25%;
@@ -159,11 +155,6 @@ h1, h2 {
 }
 
 /* yoga content */
-
-#yoga-content {
-    height: 1650px;
-}
-
 .yoga-left {
     padding-top: 15px;
     padding-bottom: 13%;
@@ -238,10 +229,6 @@ h1, h2 {
 }
 
 /* sign up content */
-#signup-content {
-    height: 150px;
-}
-
 #signup-content h2 {
     border-bottom: 1px solid #7f7f7f;
     width: 30%;
@@ -255,11 +242,6 @@ h1, h2 {
 }
 
 /* sign up form */
-
-#signup-form {
-    height: 900px;
-}
-
 fieldset {
     border: 1px solid #7f7f7f;
     border-radius: 10px;
@@ -295,7 +277,6 @@ label {
 
 }
 
-
 input {
     color: #7f7f7f;
 }
@@ -307,10 +288,6 @@ input {
 
 
 /* footer and social media */
-footer {
-    height: 150px
-}
-
 .social-icons {
     text-align: center;
 }
