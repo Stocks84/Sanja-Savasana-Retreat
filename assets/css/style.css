@@ -66,7 +66,7 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../Images/hero-image.jpg') no-repeat center center;
+    background: url('../Images/hero-image.webp') no-repeat center center;
     background-size: cover;
 }
 
@@ -130,7 +130,7 @@ h1, h2 {
 #yoga-hero-image {
     height: 600px;
     width: 100%;
-    background: url('../Images/yoga-hero-image.jpg') no-repeat center center;
+    background: url('../Images/yoga-hero-image.webp') no-repeat center center;
     background-size: cover;
 }
 
@@ -232,7 +232,7 @@ h1, h2 {
 #signup-hero-image {
     height: 600px;
     width: 100%;
-    background: url('../Images/signup-hero-image.jpg') no-repeat center center;
+    background: url('../Images/signup-hero-image.webp') no-repeat center center;
     background-size: cover;
 }
 
