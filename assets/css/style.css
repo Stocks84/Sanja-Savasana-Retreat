@@ -293,41 +293,41 @@ input {
 
 /* media queries */
 
-/* mobile phones */
+/* small tablet */
 
-@media screen and (max-width: 800px) {
-    
-    #logo {
-        font-size: 80%;
-        border-bottom: none;
-    }
-    
-    #menu {
-        font-size: 55%;
-        letter-spacing: 1px;
-        margin-left: 7vw;
-    }
-
-    #hero-image {
-        height: 300px;
-    }
-     
+@media (min-width: 500px) {
     #cover-text {
-        font-size: 50%;
-        letter-spacing: 1px;
+        margin: 0 15vw;
+    }
+}
+
+/* tablet */
+
+@media (min-width: 750px) {
+    #logo {
+        font-size: 3vw;
+    }
     
-        width: 30vw;
-        height: 10vh;
-    
-        top: 45vh;
-        left: 2vw;
+    .yoga-img-right,
+    .yoga-img-left {
+        width: 33%;
+        border: 1px solid #7f7f7f;
     }
 
-    #content h2 {
-        width: 100%;
+    .yoga-img-right {
+        float: left;
     }
 
-    #content p{
-        font-size: 70%;
+    .yoga-img-left {
+        float: right;
+    }
+
+    .yoga-left p,
+    .yoga-right p {
+        display: flex;
+    }
+
+    #yoga-cover-text {
+        top: 24em;
     }
 }
