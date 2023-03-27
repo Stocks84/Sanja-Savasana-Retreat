@@ -313,3 +313,42 @@ input {
 }
 
 /* media queries */
+
+/* mobile phones */
+
+@media screen and (max-width: 800px) {
+    
+    #logo {
+        font-size: 80%;
+        border-bottom: none;
+    }
+    
+    #menu {
+        font-size: 55%;
+        letter-spacing: 1px;
+        margin-left: 7vw;
+    }
+
+    #hero-image {
+        height: 300px;
+    }
+     
+    #cover-text {
+        font-size: 50%;
+        letter-spacing: 1px;
+    
+        width: 30vw;
+        height: 10vh;
+    
+        top: 45vh;
+        left: 2vw;
+    }
+
+    #content h2 {
+        width: 100%;
+    }
+
+    #content p{
+        font-size: 70%;
+    }
+}
