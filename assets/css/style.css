@@ -17,8 +17,7 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
-    margin-left: 1vw;
+    flex-direction: column;
 }
 
 header a {
@@ -35,8 +34,10 @@ h1, h2 {
 }
 
 #logo {
-    font-size: 300%;
+    font-size: 5vw;
     border-bottom: none;
+    width: 100%;
+    text-align: center;
 }
 
 
@@ -46,7 +47,7 @@ h1, h2 {
     font-size: 110%;
     letter-spacing: 3px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
 }
 
 #menu, #logo {
@@ -76,7 +77,7 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../Images/hero-image.webp') no-repeat center center;
+    background: url('../images/hero-image.webp') no-repeat center center;
     background-size: cover;
 }
 
@@ -89,26 +90,28 @@ h1, h2 {
     font-family: 'Tenor Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-
-    width: 30vw;
-    height: 15vh;
-
     padding-top: 1vh;
     padding-left: 0.5vw;
-
     background-color: rgba(127, 127, 127, .5);
-
     position: absolute;
     top: 57vh;
-    left: 2vw;
+    left: 0;
+    right: 0;
+    margin: 0 4vw;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 /* retreat content */
 
+#content {
+    margin: 1em;
+}
+
 #content h2 {
     border-bottom: 1px solid #7f7f7f;
-    width: 25%;
-    margin-left: 1vw;
+    text-align: center;
+    margin-top: 2em;
 }
 
 #content p {
@@ -136,7 +139,7 @@ h1, h2 {
 #yoga-hero-image {
     height: 600px;
     width: 100%;
-    background: url('../Images/yoga-hero-image.webp') no-repeat center center;
+    background: url('../images/yoga-hero-image.webp') no-repeat center center;
     background-size: cover;
 }
 
@@ -149,18 +152,14 @@ h1, h2 {
     font-family: 'Tenor Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-
     width: 300px;
-    height: 150px;
-
     padding-top: 20px;
     padding-left: 10px;
-
     background-color: rgba(127, 127, 127, .5);
-
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     position: absolute;
-    top: 470px;
-    right: 30px;
+    top: 8em;
+    right: 1em;
 }
 
 /* yoga content */
@@ -169,10 +168,12 @@ h1, h2 {
     padding-bottom: 13%;
 }
 
-.yoga-left h2 {
+.yoga-left h2,
+.yoga-right h2 {
     border-bottom: 1px solid #7f7f7f;
-    width: 25%;
-    margin-left: 1vw;
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
 }
 
 .yoga-left p {
@@ -182,29 +183,19 @@ h1, h2 {
     text-align: center;
 }
 
-.yoga-img-right {
+.yoga-img-right,
+.yoga-img-left {
     height: 300px;
-    width: 33%;
-
-    float: right;
-    margin-right: 1vw;
-    margin-left: 1vw;
-
-    border: 1px solid #7f7f7f;
+    width: 100%;
+    margin-top: 30px;
+    border-top: 1px solid #7f7f7f;
+    border-bottom: #7f7f7f;
+    object-fit: cover;
 }
 
 .yoga-right {
     padding-top: 15px;
     padding-bottom: 13%;
-}
-
-.yoga-right h2 {
-    display: flex;
-    justify-content: flex-end;
-    border-bottom: 1px solid #7f7f7f;
-    width: 25%;
-    margin-right: 1vw;
-    float: right;
 }
 
 .yoga-right p {
@@ -215,25 +206,13 @@ h1, h2 {
     padding-top: 30px;
 }
 
-.yoga-img-left {
-    height: 300px;
-    width: 33%;
-
-    float: left;
-    margin-right: 1vw;
-    margin-left: 1vw;
-    margin-top: 30px;
-
-    border: 1px solid #7f7f7f;
-}
-
 /* sign up page */
 
 /* sign up hero image */
 #signup-hero-image {
     height: 600px;
     width: 100%;
-    background: url('../Images/signup-hero-image.webp') no-repeat center center;
+    background: url('../images/signup-hero-image.webp') no-repeat center center;
     background-size: cover;
 }
 
