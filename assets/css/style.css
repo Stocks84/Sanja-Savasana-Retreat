@@ -15,6 +15,16 @@ body {
 
 /* Headings & logo */
 
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1vw;
+}
+
+header a {
+    text-decoration: none;
+}
+
 h1, h2 {
     font-family: 'Bellefair', sans-serif;
     font-weight: 400;
@@ -25,10 +35,10 @@ h1, h2 {
 }
 
 #logo {
-    float: left;
     font-size: 300%;
-    margin-left: 30px;
+    border-bottom: none;
 }
+
 
 /* navigation links */
 
@@ -44,9 +54,8 @@ h1, h2 {
 }
 
 #menu li {
-    float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 1vw;
 }
 
 #menu a {
@@ -81,17 +90,17 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 3px;
 
-    width: 300px;
-    height: 150px;
+    width: 30vw;
+    height: 15vh;
 
-    padding-top: 20px;
-    padding-left: 10px;
+    padding-top: 1vh;
+    padding-left: 0.5vw;
 
     background-color: rgba(127, 127, 127, .5);
 
     position: absolute;
-    top: 470px;
-    left: 30px;
+    top: 57vh;
+    left: 2vw;
 }
 
 /* retreat content */
@@ -99,12 +108,12 @@ h1, h2 {
 #content h2 {
     border-bottom: 1px solid #7f7f7f;
     width: 25%;
-    margin-left: 30px;
+    margin-left: 1vw;
 }
 
 #content p {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 1vw;
+    margin-right: 1vw;
     line-height: 40px;
 }
 
@@ -163,12 +172,12 @@ h1, h2 {
 .yoga-left h2 {
     border-bottom: 1px solid #7f7f7f;
     width: 25%;
-    margin-left: 30px;
+    margin-left: 1vw;
 }
 
 .yoga-left p {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 1vw;
+    margin-right: 1vw;
     line-height: 40px;
     text-align: center;
 }
@@ -178,8 +187,8 @@ h1, h2 {
     width: 33%;
 
     float: right;
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 1vw;
+    margin-left: 1vw;
 
     border: 1px solid #7f7f7f;
 }
@@ -194,13 +203,13 @@ h1, h2 {
     justify-content: flex-end;
     border-bottom: 1px solid #7f7f7f;
     width: 25%;
-    margin-right: 30px;
+    margin-right: 1vw;
     float: right;
 }
 
 .yoga-right p {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 1vw;
+    margin-right: 1vw;
     line-height: 40px;
     text-align: center;
     padding-top: 30px;
@@ -211,8 +220,8 @@ h1, h2 {
     width: 33%;
 
     float: left;
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 1vw;
+    margin-left: 1vw;
     margin-top: 30px;
 
     border: 1px solid #7f7f7f;
@@ -232,12 +241,12 @@ h1, h2 {
 #signup-content h2 {
     border-bottom: 1px solid #7f7f7f;
     width: 30%;
-    margin-left: 30px;
+    margin-left: 1vw;
 }
 
 #signup-content p {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 1vw;
+    margin-right: 1vw;
     line-height: 40px;
 }
 
@@ -248,7 +257,7 @@ fieldset {
 
     width: 800px;
     padding: 30px;
-    margin: 30px;
+    margin: 1vw;
 }
 
 fieldset p {
@@ -302,3 +311,5 @@ input {
     padding: 2%;
     color: #708090;
 }
+
+/* media queries */
