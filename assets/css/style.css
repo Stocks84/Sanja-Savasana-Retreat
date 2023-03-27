@@ -331,3 +331,21 @@ input {
         top: 24em;
     }
 }
+
+/* desktop */
+
+@media (min-width: 950px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #menu li {
+        margin: 0 1em;
+    }
+
+    #cover-text {
+        top: 46vh;
+        margin: 0 25vw;
+    }
+}
