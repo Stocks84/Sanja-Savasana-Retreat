@@ -219,6 +219,7 @@ h1, h2 {
 #sign-up-cover-text {
     font-size: 130%;
     font-family: 'Tenor Sans', sans-serif;
+    color: #fbfbfb;
     text-transform: uppercase;
     letter-spacing: 3px;
     width: 300px;
@@ -231,37 +232,46 @@ h1, h2 {
     right: 1em;
 }
 
+#sign-up-cover-text > h2 {
+    color: #fbfbfb;
+}
+
 /* sign up content */
 #signup-content h2 {
     border-bottom: 1px solid #7f7f7f;
-    width: 30%;
-    margin-left: 1vw;
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
 }
 
 #signup-content p {
     margin-left: 1vw;
     margin-right: 1vw;
     line-height: 40px;
+    text-align: center;
 }
 
 /* sign up form */
 fieldset {
-    border: 1px solid #7f7f7f;
-    border-radius: 10px;
-
-    width: 800px;
-    padding: 30px;
-    margin: 1vw;
+    border-top: 1px solid #7f7f7f;
+    border-bottom: 1px solid #7f7f7f;
+    border-radius: 1em;
+    width: 100%;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 fieldset p {
     font-size: large;
     font-weight: 500;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 legend {
     font-size: x-large;
     font-weight: 900;
+    text-align: center;
 }
 
 label {
