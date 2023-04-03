@@ -322,6 +322,16 @@ input {
     padding: 20px;
 }
 
+/* confirmation page */
+
+#confirmation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
 
 /* footer and social media */
 .social-icons {
