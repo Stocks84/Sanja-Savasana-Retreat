@@ -54,7 +54,7 @@
 
     <!--Main content-->
 
-    <section id="signup-form">
+    <section>
         <form action="confirmation.html">
             <fieldset>
                 <legend>Your Details</legend>
@@ -88,7 +88,7 @@
                         <option value="Bikram">
                     </datalist>
                 </div>
-                <div>
+                <div class="level-type">
                     <p>What level are you?</p>
                     <br>
                     <input id="t-beginner" name="level" value="t-beginner" type="radio" checked>
@@ -103,7 +103,7 @@
                     <label for="professional">Professional</label>
                 </div>
                 <br>
-                <div>
+                <div class="level-type">
                     <p>How often do you practice yoga per week?</p>
                     <br>
                     <input id="0-2-times" name="practice" value="0-2-times" type="radio" checked>
@@ -132,11 +132,11 @@
                 <div>
                     <label for="requests">Your Wishes</label>
                     <br>
-                    <textarea name="request" id="requests" placeholder="Please write down any requests you would like e.g. Types of food, games etc..." rows="15" cols="100"></textarea>
+                    <textarea name="request" id="requests" placeholder="Please write down any requests you would like e.g. Types of food, games etc..." rows="25" cols="50"></textarea>
                 </div>
             </fieldset>
-            <div>
-                <input type="submit" value="Submit">
+            <div id="submit">
+                <input class="submit" type="submit" value="Submit">
             </div>
          </form>
     </section>

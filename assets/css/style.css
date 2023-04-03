@@ -262,22 +262,23 @@ fieldset {
 }
 
 fieldset p {
-    font-size: large;
     font-weight: 500;
     margin-left: 1vw;
     margin-right: 1vw;
 }
 
 legend {
-    font-size: x-large;
     font-weight: 900;
     text-align: center;
 }
 
 label {
-    font-size: large;
     font-weight: 500;
+}
 
+.level-type {
+    display: flex;
+    flex-direction: column;
 }
 
 .signup-text {
@@ -297,6 +298,28 @@ input {
 ::placeholder {
     padding-left: 10px;
     color: slategray;
+}
+
+.submit {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 200%;
+    background-color: aliceblue;
+    padding: 14px 40px;
+    border: 1px solid #7f7f7f;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+
+}
+
+.submit:hover {
+    background-color: #7f7f7f;
+    color: aliceblue;
+}
+
+#submit {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 
@@ -354,6 +377,16 @@ input {
 
     #yoga-cover-text {
         top: 24em;
+    }
+
+    /* sign up page */
+
+    fieldset {
+        border: 1px solid #7f7f7f;
+        border-radius: 1em;
+        width: 98%;
+        margin-left: 1vw;
+        margin-right: 1vw;
     }
 }
 
