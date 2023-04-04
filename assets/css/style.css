@@ -398,6 +398,12 @@ input {
         margin-left: 1vw;
         margin-right: 1vw;
     }
+
+    .level-type {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 
 /* desktop */
