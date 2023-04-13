@@ -16,3 +16,11 @@ Navigation
 -	The navigation shows the user the company name clearly and where to find the required information easily.
 
 ![screenshot](documentation/navigation.png)
+
+Social Media Icon Links
+
+-	Featured at the bottom of the page, the icons show the user what social media presence the company has.
+-	Each icon opens a new tab directly to that platform.
+-	The icons have a more rounded look due to it being a yoga website, therefore looking more peaceful and relaxing.
+
+![screenshot](documentation/social_media_icons.png)
