@@ -107,9 +107,17 @@ The users of this website will be able to find the information they need to know
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
 | Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FStocks84.github.io%2FSanja-Savasana-Retreat%2Findex.html) | ![screenshot](documentation/html-validation-home.png) | Pass: No Errors |
-| Yoga | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FStocks84.github.io%2FSanja-Savasana-Retreat%2Fcontact.html) | ![screenshot](documentation/html-validation-yoga.png) | End tag had attributes. Stray end tag  |
-| Sign Up | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FStocks84.github.io%2FSanja-Savasana-Retreat%2Fquiz.html) | ![screenshot](documentation/html-validation-sign-up.png) | Section lacks heading |
+| Yoga | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FStocks84.github.io%2FSanja-Savasana-Retreat%2Fcontact.html) | ![screenshot](documentation/html-validation-yoga.png) | End tag had attributes. Stray end tag and fixed |
+| Sign Up | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FStocks84.github.io%2FSanja-Savasana-Retreat%2Fquiz.html) | ![screenshot](documentation/html-validation-sign-up.png) | Section lacks heading and fixed |
 
+### CSS
+
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
+
+
+| File | Jigsaw URL | Screenshot | Notes |
+| --- | --- | --- | --- |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FStocks84.github.io%2FSanja-Savasana-Retreat) | ![screenshot](documentation/css-validation-style.png) | Pass: No Errors |
 
 # Deployment
 
