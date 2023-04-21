@@ -8,7 +8,7 @@ The users of this website will be able to find the information they need to know
 
 ## Features
 
-Navigation
+### Navigation
 
 -	Featured at the top of the page, the navigation shows the company name in the left-hand corner: Sanja Savasana Retreat that links to the index.html.
 -	The other navigation links are to the right: Home, Yoga, Sign Up which link up the separate pages.
@@ -19,7 +19,7 @@ Navigation
 
 ![screenshot](documentation/navigation.png)
 
-Social Media Icon Links
+### Social Media Icon Links
 
 -	Featured at the bottom of the page, the icons show the user what social media presence the company has.
 -	Each icon opens a new tab directly to that platform.
@@ -28,7 +28,7 @@ Social Media Icon Links
 
 ![screenshot](documentation/social_media_icons.png)
 
-Home Header
+### Home Header
 
 -	The hero image is bright and crisp giving the user an idea of the surroundings they will be practicing yoga and relaxing in.
 -	The cover text establishes what type of retreat this is and the location of the retreat.
@@ -37,7 +37,7 @@ Home Header
 ![screenshot](documentation/home_header.png)
 
 
-Home Content
+### Home Content
 
 -	The h2 elements are in the centre with a crisp line underneath across the page to separate the sections to keep it clear to read.
 -	The use of the two different font colours and styles are to keep in the theme of the Company and page. 
@@ -45,7 +45,7 @@ Home Content
 ![screenshot](documentation/home_content.png)
 
 
-Yoga Header
+### Yoga Header
 
 -	The hero image is not as bright as the home page as it gives a more of a meditation feel especially with the woman doing the tree pose in the image.
 -	The tree pose is not particularly difficult but doing it on the edge of a boat can be. The reason for choosing this picture is to show that the retreat incorporates all abilities.
@@ -53,7 +53,7 @@ Yoga Header
 
 ![screenshot](documentation/yoga_header.png)
 
-Yoga Content
+### Yoga Content
 
 -	The images were chosen to show the variety on offer and the different areas that the user could be doing yoga.
 -	The font style and colours are the same as the home page. 
@@ -62,7 +62,7 @@ Yoga Content
 ![screenshot](documentation/yoga_content2.png)
 
 
-Sign Up Header
+### Sign Up Header
 
 -	The hero image is of the lake and retreat at night-time. This is to clarify to the user that they are on the final page.
 -	A change to the cover text to thank the user for signing up and just visiting the web site.
@@ -70,7 +70,7 @@ Sign Up Header
 ![screenshot](documentation/sign-up_header.png)
 
 
-Sign Up Form 
+### Sign Up Form 
 
 -	The start of the form has a brief explanation of what is required from the sign-up form and a small thank you to the user.
 -	The font style and colours are in keeping of the website.
@@ -87,8 +87,19 @@ Sign Up Form
 ![screenshot](documentation/sign-up_form2.png)
 
 
-Confirmation Page
+### Confirmation Page
 
 -	Brief message to inform the user that the form has been submitted and that they will be directed back to the homepage. This will automatically occur in 10 seconds. 
 
 ![screenshot](documentation/confirmation.png)
+
+
+## Future Features
+
+### Gallery Page
+
+•	Add a Gallery Page to give the user an impression of what our social media content might include and maybe entice the user follow us on social media. 
+
+### Booking Form
+
+•	Makes it easier for the user to reserve places.
