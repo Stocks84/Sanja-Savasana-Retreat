@@ -152,6 +152,22 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Sign Up | Mobile | ![screenshot](documentation/lighthouse-sign-up-mobile.png) | Slow response time due to large hero image. Minor foregound & background colour contrast issue. Few warnings |
 | Sign Up | Desktop | ![screenshot](documentation/lighthouse-sign-up-desktop.png) | Slow response time due to large hero image. Minor foregound & background colour contrast issue. Few warnings |
 
+# Bugs
+
+### GitHub **Issues**
+
+- Commit messages:
+    - At the beginning forgot the captial letters at the start.
+    - Due to habit referred to some commits in past tense.
+    - With a few commits especially the taks commit, were forced errors due to internet issues whilst i was at work, deployed.
+    ![screenshot](documentation/commit-1.png)
+    ![screenshot](documentation/commit-2.png)
+    ![screenshot](documentation/commit-3.png)
+
+# Unfixed Bugs
+
+- There are no remaining bugs that I am aware of.
+
 # Deployment
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
