@@ -210,7 +210,3 @@ The live link can be found [here](https://stocks84.github.io/Sanja-Savasana-Retr
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support and quick information.
 - I would like to thank my partner Sanja, for believing in me, being my muse and keeping me motivated.
 - I would like to thank my family, for helping me through some of the language due to my learning difficulties.
-
-
-
-
