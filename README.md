@@ -129,6 +129,15 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Firefox | ![screenshot](documentation/browser-firefox.png) | Works as expected |
 | Safari | ![screenshot](documentation/browser-safari.png) | Works as expected |
 
+# Responsiveness
+
+I've tested my deployed project on multiple devices to check for responsiveness issues.
+
+| Device | Screenshot | Notes |
+| --- | --- | --- |
+| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile.png) | Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet.png) | Works as expected |
+| Desktop | ![screenshot](documentation/responsive-desktop.png) | Works as expected |
 
 # Deployment
 
