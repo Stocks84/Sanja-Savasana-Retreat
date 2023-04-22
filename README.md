@@ -119,6 +119,17 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 | --- | --- | --- | --- |
 | style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FStocks84.github.io%2FSanja-Savasana-Retreat) | ![screenshot](documentation/css-validation-style.png) | Pass: No Errors |
 
+# Browser Compatibility
+
+I've tested my deployed project on multiple browsers to check for compatibility issues.
+
+| Browser | Screenshot | Notes |
+| --- | --- | --- |
+| Chrome | ![screenshot](documentation/browser-chrome.png) | Works as expected |
+| Firefox | ![screenshot](documentation/browser-firefox.png) | Works as expected |
+| Safari | ![screenshot](documentation/browser-safari.png) | Works as expected |
+
+
 # Deployment
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
