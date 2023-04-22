@@ -176,3 +176,41 @@ The site was deployed to GitHub Pages. The steps to deploy are as follows:
 - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found [here](https://stocks84.github.io/Sanja-Savasana-Retreat)
+
+# Credits
+
+### Content
+
+| Source | Location | Notes |
+| --- | --- | --- |
+| [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
+| [GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) | version control | syntax |
+| [W3Schools](https://www.w3schools.com/css/css3_borders.asp) | sign up page | borders |
+| [W3Schools](https://www.w3schools.com/css/css3_buttons.asp) | sign up page | buttons |
+| [LogRocket](https://blog.logrocket.com/how-to-style-forms-with-css-a-beginners-guide/) | sign up page | How to style forms |
+| [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
+| [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
+| [Wikipedia](https://en.wikipedia.org/wiki/W%C3%B6rthersee) | homepage | information about Worthersee |
+| [Mindbodygreen](https://www.mindbodygreen.com/) | yoga page | types of yoga content |
+
+### Media
+
+| Source | Location | Type | Notes |
+| --- | --- | --- | --- |
+| [Pexels](https://www.pexels.com) | entire site | images | hero image backgrounds on all pages |
+| [Pexels](https://www.pexels.com) | yoga page | images | yoga images throughout page |
+| [Color-hex](https://www.color-hex.com/color/f5f5f5) | entire site | font colours | used to find font colours |
+| [FontAwesome](https://fontawesome.com/) | entire site | icons | icons for social media navigation |
+| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+
+### Acknowledgements
+
+- In no particular order i would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support throughout the development of this project.
+- I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and helping with any questions i had.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support and quick information.
+- I would like to thank my partner Sanja, for believing in me, being my muse and keeping me motivated.
+- I would like to thank my family, for helping me through some of the language due to my learning difficulties.
+
+
+
+
