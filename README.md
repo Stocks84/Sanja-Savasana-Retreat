@@ -139,6 +139,19 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Tablet (DevTools) | ![screenshot](documentation/responsive-tablet.png) | Works as expected |
 | Desktop | ![screenshot](documentation/responsive-desktop.png) | Works as expected |
 
+# Lighthouse Audit
+
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
+
+| Page | Size | Screenshot | Notes |
+| --- | --- | --- | --- |
+| Home | Mobile | ![screenshot](documentation/lighthouse-home-mobile.png) | Slow response time due to large hero image. Minor foregound & background colour contrast issue. Few warnings |
+| Home | Desktop | ![screenshot](documentation/lighthouse-home-desktop.png) | Slow response time due to large hero image. Minor foregound & background colour contrast issue. Few warnings|
+| Yoga | Mobile | ![screenshot](documentation/lighthouse-yoga-mobile.png) | Slow response time due to large images. Minor foregound & background colour contrast issue. Few warnings |
+| Yoga | Desktop | ![screenshot](documentation/lighthouse-yoga-desktop.png) | Slow response time due to large images. Minor foregound & background colour contrast issue. Few warnings |
+| Sign Up | Mobile | ![screenshot](documentation/lighthouse-sign-up-mobile.png) | Slow response time due to large hero image. Minor foregound & background colour contrast issue. Few warnings |
+| Sign Up | Desktop | ![screenshot](documentation/lighthouse-sign-up-desktop.png) | Slow response time due to large hero image. Minor foregound & background colour contrast issue. Few warnings |
+
 # Deployment
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
